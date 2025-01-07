@@ -1,0 +1,90 @@
+NLP                                                             Machine Learning overview
+variables                                                       what is ML?
+Rules:                                                          subfield of computer science that gives 
+1.must start with a letter or underscore                        computers the ability to learn without being
+2.can contain letters, numbers, and underscores                 explicitly programmed.                    
+3.case-sensitive                                                What is an algorithm in ML?
+4.cannot use python keywords or built-in function names         It is a set of mathematical instructions to 
+                                                                learn patterns from data.
+Data types:
+1.strings
+2.tuples(fixed)
+3.lists(mutable)
+4.int
+5.set(mutable)
+  characteristics:
+     behavior
+     order
+     Homogeneity
+     Default value
+     Demo
+my_int = 42
+print("Original Integer:", my_int)
+result = my_int * 2
+print("Result after multiplication:", result)
+
+
+LIST:
+#DEMO
+my_list = [1, 2, 'hii']
+print("Original list:", my_list)
+my_list.append('world')
+print("list after appending 'world':", my_list)
+
+#removing an element
+my_list.remove('hii')
+print("list after removing 'hii':", my_list)
+
+TUPLE
+#DEMO
+my_tuple = [1, 2, 'hii']
+print("Original Tuple:", my_tuple)
+print("First element:", my_tuple[0])
+print("Last element:", my_tuple[-1])
+
+SET
+#DEMO
+my_set = [1, 2, 'hii']
+print("Original Set:", my_set)
+my_set.add('hello')
+print("set after adding 'hello':", my_set)
+
+dict:
+#DEMO
+my_dict = {'name': 'john', 'age': 20}
+print("Original Dictionary:", my_dict)
+
+Slicing with step (start:stop:step)
+print("\nSlicing with step (start:stop:step):")
+print(my_list[1:8:2])
+
+Slicing with negative indexing
+print("\nSlicing with negative indexing:")
+print(my_list[-5:-2])
+
+
+Functions
+1. Built-in functions
+2.
+
+what is the difference between function and method?
+how to find built-in methods in python?
+print(dir(str))
+how to create user defined function?
+we must start function with def key word followed by function name, parameter.
+we can have function with default values. 
+
+A lambda function is an anonymous function, often referred as
+1.lambda function
+2.lambda expression
+3.lambda form
+syntax: lambda arguments: expression
+#Demo
+add = lambda x, y : x + y
+print(add(2,3))
+
+
+
+
+
+
